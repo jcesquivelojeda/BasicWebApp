@@ -1,0 +1,16 @@
+package tutorial;
+
+/**
+ * Created by nick on 2/09/15.
+ */
+public class Calculator {
+
+    public int abs(int arg){
+       if(arg<0){
+           return -arg;
+       }
+        else{
+           return arg;
+       }
+    }
+}
