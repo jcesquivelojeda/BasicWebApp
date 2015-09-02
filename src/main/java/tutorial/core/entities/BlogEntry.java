@@ -1,6 +1,17 @@
-package tutorial.entities;
+package tutorial.core.entities;
 
 public class BlogEntry {
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    private  Long id;
+
     public String getTitle() {
         return title;
     }
