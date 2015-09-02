@@ -1,22 +1,13 @@
 package tutorial.core.entities;
 
-public class BlogEntry {
+/**
+ * Created by nick on 2/09/15.
+ */
+public class Blog {
 
-    private  Long id;
+    private Long id;
     private String title;
-    private Blog blog;
-
-    public Blog getBlog() {
-        return blog;
-    }
-
-    public void setBlog(Blog blog) {
-        this.blog = blog;
-    }
-
-
-
-
+    private Account owner;
 
     public Long getId() {
         return id;
@@ -26,8 +17,6 @@ public class BlogEntry {
         this.id = id;
     }
 
-
-
     public String getTitle() {
         return title;
     }
@@ -36,6 +25,13 @@ public class BlogEntry {
         this.title = title;
     }
 
+    public Account getOwner() {
+        return owner;
+    }
+
+    public void setOwner(Account owner) {
+        this.owner = owner;
+    }
 
 
 }
